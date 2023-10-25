@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>registration form</title> 
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="registration" id="reg-form"></div>
+    <div class="reg-content">
+    <h1>Registration Form</h1>
+</div>
+</div>
+</body>
+<div class="registration" id="reg-form">
+    <div class="main">
+        <form id="registration-form">
+<fieldset>
+    <label for="first-name">Enter Your First Name: <input type="text" required id="first-name" placeholder="first name"></textarea></label>
+    <label for="last-name"> Enter Your Last Name: <input id="last-name" type="text" placeholder="last name" required></label>
+    <label for="email"> Enter Your Email: <input type="email" id="email" placeholder="email" ></label>
+    <label for="password"> Create a New Password: <input id="password" type="password" placeholder="password" required></label>
+</fieldset>
+
+<div class="submit" id="submit">
+    <button type="button">SUBMIT</button>
+    </div>
+    </form>
+<div class="success" id="success">
+    </div>
+    <div class="login" id="login" style="display: none;">
+        <button type="button">login</button>
+    </div>
+    <div class="log-success" id="log-success">
+    </div>
+    <div class="error" id="error">
+        
+    </div>
+</div>
+</div>
+    <script src="reg.js"></script>
+</html>

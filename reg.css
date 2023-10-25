@@ -1,0 +1,66 @@
+body{
+    color:rgb(47, 47, 47);
+    width:100%;
+    height: 100vh;
+    margin:0;
+    font-size: 16px;
+    background: linear-gradient(150deg,rgb(245, 104, 127), rgb(244, 101, 244));
+    text-align: center;
+    align-items: center;
+    font-family: Tahoma;
+}
+label{
+    text-align: center;
+    display: block;
+    margin : 0.5rem 0;
+}
+input{
+    background-color: grey;
+    color: white;
+}
+fieldset{
+    background: linear-gradient(150deg,pink, violet);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    border-radius: 2rem;
+    color:rgb(33, 1, 1);
+    margin: auto;
+    box-shadow: inset;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    }
+input,textarea,select{
+    background-color: white;
+    margin: 10px 0 0 0;
+    width: auto;
+    color: black;
+    border: 1px solid #383439;
+    border-radius: 0.5rem;
+    border: none;
+    outline: 0;
+}
+::placeholder{
+    padding-left: 10px;
+}
+button{
+    background: linear-gradient(150deg,pink, violet);
+    border-radius: 1rem;
+    color: rgb(43, 3, 3);
+    padding: 0.5rem;
+    margin: auto;
+    width:300px;
+    margin-top: 20px; 
+    border: none;
+    outline: 0;
+    height: 30px;
+}
+button:hover{
+    padding: 0.5rem;
+    margin: auto;
+    width:315px;
+    margin-top: 20px;
+    height: 35px;
+}
+
